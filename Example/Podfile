@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CKStoreProductLink_Example' do
+  pod 'CKStoreProductLink', :path => '../'
+
+  target 'CKStoreProductLink_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
