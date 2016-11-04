@@ -1,0 +1,19 @@
+PODS:
+  - CKStoreProductLink (0.1.0)
+  - SVProgressHUD (2.0.3)
+
+DEPENDENCIES:
+  - CKStoreProductLink (from `../`)
+  - SVProgressHUD
+
+EXTERNAL SOURCES:
+  CKStoreProductLink:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CKStoreProductLink: 53fc8841d7f987d9ad86e65f45d0800858c0b2f3
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+
+PODFILE CHECKSUM: 5028ac7d6c88cfc7bfce445a0b8517ececcc4037
+
+COCOAPODS: 1.1.0.rc.2

@@ -17,7 +17,7 @@ CKStoreProductLink is available through [CocoaPods](http://cocoapods.org). To in
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "CKStoreProductLink"
+pod "CKStoreProductLink", :git => "https://github.com/kaich/CKStoreProductLink.git"
 ```
 
 ## Author

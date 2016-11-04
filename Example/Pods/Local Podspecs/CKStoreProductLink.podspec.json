@@ -1,0 +1,26 @@
+{
+  "name": "CKStoreProductLink",
+  "version": "0.1.0",
+  "summary": "A short description of CKStoreProductLink.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/CKStoreProductLink",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kaich": "chengkai1853@163.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/CKStoreProductLink.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CKStoreProductLink/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "StoreKit"
+  ]
+}

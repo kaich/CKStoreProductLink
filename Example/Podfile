@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'CKStoreProductLink_Example' do
   pod 'CKStoreProductLink', :path => '../'
+  pod 'SVProgressHUD'
 
   target 'CKStoreProductLink_Tests' do
     inherit! :search_paths

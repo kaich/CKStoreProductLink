@@ -1,0 +1,6 @@
+framework module Pods_CKStoreProductLink_Tests {
+  umbrella header "Pods-CKStoreProductLink_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

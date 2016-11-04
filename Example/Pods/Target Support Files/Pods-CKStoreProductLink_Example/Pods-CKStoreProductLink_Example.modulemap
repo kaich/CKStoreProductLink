@@ -1,0 +1,6 @@
+framework module Pods_CKStoreProductLink_Example {
+  umbrella header "Pods-CKStoreProductLink_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

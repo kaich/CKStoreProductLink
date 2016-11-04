@@ -1,0 +1,6 @@
+framework module CKStoreProductLink {
+  umbrella header "CKStoreProductLink-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import CKStoreProductLink
+import SVProgressHUD
 
 class ViewController: UIViewController {
 
@@ -20,5 +22,18 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBOutlet weak var tfAppID: UITextField!
+    
+    @IBAction func showStore(_ sender: AnyObject) {
+        SVProgressHUD.show()
+        ckst_open(itemID: tfAppID.text!) { (isOK) in
+            if isOK == false {
+                SVProgressHUD.showError(withStatus: "Apptore无此应用")
+            }
+            else {
+                SVProgressHUD.dismiss()
+            }
+        }
+    }
 }
 
