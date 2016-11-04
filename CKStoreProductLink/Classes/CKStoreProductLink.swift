@@ -3,6 +3,11 @@ import StoreKit
 
 extension UIViewController {
     
+    
+    /// 跳转到App Store打开指定应用页面
+    ///
+    /// - parameter url:           应用路径
+    /// - parameter completeBlock: 完成回调
     public func ckst_open(url :URL, completeBlock :((Bool) -> Void)?) {
         if UIApplication.shared.canOpenURL(url) {
             let isOK = UIApplication.shared.openURL(url)
@@ -12,6 +17,11 @@ extension UIViewController {
         }
     }
     
+    
+    /// 在应用内打开App Store相关应用页面
+    ///
+    /// - parameter itemID:        应用id
+    /// - parameter completeBlock: 完成回调
     public func ckst_open(itemID :String, completeBlock :((Bool) -> Void)?) {
         CKStoreProductLink.shared.open(itemID: itemID, in: self, completeBlock: completeBlock)
     }

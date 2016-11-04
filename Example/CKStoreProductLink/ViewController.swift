@@ -25,13 +25,22 @@ class ViewController: UIViewController {
     @IBOutlet weak var tfAppID: UITextField!
     
     @IBAction func showStore(_ sender: AnyObject) {
-        SVProgressHUD.show()
-        ckst_open(itemID: tfAppID.text!) { (isOK) in
-            if isOK == false {
-                SVProgressHUD.showError(withStatus: "Apptore无此应用")
+        if let text = tfAppID.text {
+            if text.hasPrefix("http") {
+                if let url = URL(string:text) {
+                    ckst_open(url: url, completeBlock: nil)
+                }
             }
             else {
-                SVProgressHUD.dismiss()
+                SVProgressHUD.show()
+                ckst_open(itemID: tfAppID.text!) { (isOK) in
+                    if isOK == false {
+                        SVProgressHUD.showError(withStatus: "Apptore无此应用")
+                    }
+                    else {
+                        SVProgressHUD.dismiss()
+                    }
+                }
             }
         }
     }
