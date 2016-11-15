@@ -18,6 +18,12 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod "CKStoreProductLink", :git => "https://github.com/kaich/CKStoreProductLink.git"
+```		
+
+If you don't want to include StoreKit framework. Only link to App Store.Simply add the following line to your Podfile:	
+
+```ruby
+pod "CKStoreProductLink/Outer", :git => "https://github.com/kaich/CKStoreProductLink.git"
 ```
 
 ## Author
