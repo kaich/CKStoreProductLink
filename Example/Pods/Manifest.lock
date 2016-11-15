@@ -1,7 +1,7 @@
 PODS:
-  - CKStoreProductLink (0.1.0):
-    - CKStoreProductLink/Both (= 0.1.0)
-  - CKStoreProductLink/Both (0.1.0)
+  - CKStoreProductLink (0.1.2):
+    - CKStoreProductLink/Both (= 0.1.2)
+  - CKStoreProductLink/Both (0.1.2)
   - SVProgressHUD (2.0.3)
 
 DEPENDENCIES:
@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CKStoreProductLink: 67fae3821dfc8f45d19ac5322163ccda2fa87ed7
+  CKStoreProductLink: 8962bdd8ea0946518385bd9cbe320902be9bb3d3
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
 
 PODFILE CHECKSUM: 5028ac7d6c88cfc7bfce445a0b8517ececcc4037

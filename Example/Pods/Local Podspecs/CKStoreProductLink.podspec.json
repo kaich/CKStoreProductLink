@@ -1,6 +1,6 @@
 {
   "name": "CKStoreProductLink",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "Simple way to show app in app store.",
   "description": "Simple way to show app in app store.",
   "homepage": "https://github.com/kaich/CKStoreProductLink",
@@ -13,24 +13,25 @@
   },
   "source": {
     "git": "https://github.com/kaich/CKStoreProductLink.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
   "default_subspecs": "Both",
-  "frameworks": [
-    "UIKit",
-    "StoreKit"
-  ],
   "subspecs": [
     {
       "name": "Both",
-      "source_files": "CKStoreProductLink/Classes/**/*"
+      "source_files": "CKStoreProductLink/Classes/**/*",
+      "frameworks": [
+        "UIKit",
+        "StoreKit"
+      ]
     },
     {
-      "name": "Inner",
-      "source_files": "CKStoreProductLink/Classes/**/CKStoreProductLink.swift"
+      "name": "Outer",
+      "source_files": "CKStoreProductLink/Classes/**/CKStoreProductLink.swift",
+      "frameworks": "Foundation"
     }
   ]
 }

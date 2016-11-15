@@ -19,12 +19,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Td7-Vp-5ck">
-                                <state key="normal" title="显示"/>
-                                <connections>
-                                    <action selector="showStore:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="HcQ-Be-JI8"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bX4-eT-iUJ">
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -36,15 +30,21 @@
                                     <action selector="showInner:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="bnS-2q-X8t"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Td7-Vp-5ck">
+                                <state key="normal" title="Outer"/>
+                                <connections>
+                                    <action selector="showStore:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="HcQ-Be-JI8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Td7-Vp-5ck" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="NrI-rc-WPI"/>
                             <constraint firstItem="bX4-eT-iUJ" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Nzw-bU-0m3"/>
                             <constraint firstItem="bX4-eT-iUJ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="VzM-OC-18W"/>
-                            <constraint firstItem="YVD-8c-Mv9" firstAttribute="top" secondItem="Td7-Vp-5ck" secondAttribute="bottom" constant="23.5" id="aoG-jS-gBD"/>
-                            <constraint firstItem="YVD-8c-Mv9" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="f4J-fJ-zzP"/>
-                            <constraint firstItem="Td7-Vp-5ck" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="jB2-yL-YJg"/>
+                            <constraint firstItem="YVD-8c-Mv9" firstAttribute="top" secondItem="Td7-Vp-5ck" secondAttribute="bottom" constant="-30" id="aoG-jS-gBD"/>
+                            <constraint firstItem="YVD-8c-Mv9" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" constant="-41" id="f4J-fJ-zzP"/>
+                            <constraint firstItem="Td7-Vp-5ck" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" constant="30" id="jB2-yL-YJg"/>
                             <constraint firstItem="Td7-Vp-5ck" firstAttribute="top" secondItem="bX4-eT-iUJ" secondAttribute="bottom" constant="26" id="nop-5l-R2D"/>
                         </constraints>
                     </view>

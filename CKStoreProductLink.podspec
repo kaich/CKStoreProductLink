@@ -30,7 +30,7 @@ Simple way to show app in app store.
 
   s.ios.deployment_target = '8.0'
 
-  s.default_subspecs = 'Both'
+  s.default_subspec = 'Both'
 
   s.subspec 'Both' do |sb|
     sb.source_files = 'CKStoreProductLink/Classes/**/*'

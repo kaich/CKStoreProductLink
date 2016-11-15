@@ -44,7 +44,7 @@ class CKStoreProductLink : NSObject {
                         self.perform(selector)
                     }
                     else {
-                        fatalError("You must ")
+                        fatalError("You must input pod 'CKStoreProductLink' rather than pod 'CKStoreProductLink' in Podfile")
                     }
                 }
                 else {
