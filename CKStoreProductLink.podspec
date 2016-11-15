@@ -34,6 +34,7 @@ Simple way to show app in app store.
 
   s.subspec 'Both' do |sb|
     sb.source_files = 'CKStoreProductLink/Classes/**/*'
+    sb.frameworks = 'UIKit', 'StoreKit' 
   end
 
   s.subspec 'Outer' do |so|
@@ -45,6 +46,5 @@ Simple way to show app in app store.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit', 'StoreKit' 
   # s.dependency 'AFNetworking', '~> 2.3'
 end
