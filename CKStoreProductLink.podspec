@@ -39,6 +39,7 @@ Simple way to show app in app store.
 
   s.subspec 'Outer' do |so|
     so.source_files = 'CKStoreProductLink/Classes/**/CKStoreProductLink.swift'
+    so.frameworks = 'Foundation'
   end
   
   # s.resource_bundles = {
