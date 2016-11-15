@@ -1,52 +1,60 @@
-import StoreKit
 
+public enum CKSPLinkType {
+    case inner , outer
+}
 
 extension UIViewController {
-    
-    
-    /// 跳转到App Store打开指定应用页面
-    ///
-    /// - parameter url:           应用路径
-    /// - parameter completeBlock: 完成回调
-    public func ckst_open(url :URL, completeBlock :((Bool) -> Void)?) {
-        if UIApplication.shared.canOpenURL(url) {
-            let isOK = UIApplication.shared.openURL(url)
-            if let completeBlock = completeBlock {
-                completeBlock(isOK)
-            }
-        }
-    }
-    
     
     /// 在应用内打开App Store相关应用页面
     ///
     /// - parameter itemID:        应用id
-    /// - parameter completeBlock: 完成回调
-    public func ckst_open(itemID :String, completeBlock :((Bool) -> Void)?) {
-        CKStoreProductLink.shared.open(itemID: itemID, in: self, completeBlock: completeBlock)
+    /// - parameter type:          应用内打开还是直接跳转Apptore
+    /// - parameter completeBlock: 完成回调,第一个Bool指示该应用是否存在，第二个Bool指示是否跳转完成
+    public func ckst_open(itemID :String, type :CKSPLinkType = .inner, completeBlock :((Bool,Bool) -> Void)? = nil) {
+        CKStoreProductLink.shared.open(itemID: itemID, in: self, type: type, completeBlock: completeBlock)
     }
 
 }
 
-
-class CKStoreProductLink : NSObject, SKStoreProductViewControllerDelegate {
+typealias CKSPLCompleteHandler = ((Bool,Bool) -> Void)
+class CKStoreProductLink : NSObject {
     static var shared = CKStoreProductLink()
     
     var targetViewController :UIViewController! = nil
-    var itemID :String!
-    var completeBlock :((Bool) -> Void)?
+    var itemID :String = ""
+    var completeBlock :CKSPLCompleteHandler?
     
-    func open(itemID :String, in container :UIViewController, completeBlock :((Bool) -> Void)?) {
+    func open(itemID :String, in container :UIViewController, type :CKSPLinkType, completeBlock :CKSPLCompleteHandler?) {
         self.targetViewController = container
         self.itemID = itemID
         self.completeBlock = completeBlock
         
-        lookupItem(itemID: itemID) { (isOK) in
-            self.requestFinish(isSuccessful: isOK)
+        lookupItem(itemID: itemID) { (isOK,isFinished) in
+            
+            if isOK == false {
+                if let completeBlock = completeBlock {
+                    completeBlock(false,false)
+                }
+            }
+            else {
+                
+                if type == .inner {
+                    let selector = NSSelectorFromString("presentInnerApp")
+                    if self.responds(to: selector) {
+                        self.perform(selector)
+                    }
+                    else {
+                        fatalError("You must ")
+                    }
+                }
+                else {
+                    self.jumpOuterApp()
+                }
+            }
         }
     }
     
-    func lookupItem(itemID :String, completeBlock :((Bool) -> Void)?) {
+    func lookupItem(itemID :String, completeBlock :CKSPLCompleteHandler?) {
         let urlString = "https://itunes.apple.com/lookup?id=" + itemID
         if let url = URL(string: urlString) {
             let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
@@ -65,7 +73,7 @@ class CKStoreProductLink : NSObject, SKStoreProductViewControllerDelegate {
                     }
                 }
                 if let completeBlock = completeBlock {
-                    completeBlock(isExist)
+                    completeBlock(isExist,false)
                 }
             }
             task.resume()
@@ -73,27 +81,17 @@ class CKStoreProductLink : NSObject, SKStoreProductViewControllerDelegate {
         
     }
     
-    func requestFinish(isSuccessful :Bool) {
-        if isSuccessful == false {
-            if let completeBlock = completeBlock {
-                completeBlock(false)
-            }
-        }
-        else {
-            let storeVC = SKStoreProductViewController()
-            storeVC.delegate = self
-            storeVC.loadProduct(withParameters: [SKStoreProductParameterITunesItemIdentifier : itemID]) { (isOK, error) in
+    func jumpOuterApp() {
+        if let url = URL(string: "https://itunes.apple.com/app/id\(itemID)") {
+            if UIApplication.shared.canOpenURL(url) {
+                let isOK = UIApplication.shared.openURL(url)
                 if let completeBlock = self.completeBlock {
-                    completeBlock(isOK)
+                    completeBlock(true,isOK)
                 }
             }
-            targetViewController.present(storeVC, animated: true, completion: nil)
         }
     }
-    
-    //MARK: - SKStoreProductViewControllerDelegate
-    func productViewControllerDidFinish(_ viewController: SKStoreProductViewController) {
-        targetViewController.dismiss(animated: true, completion: nil)
-    }
-    
+
 }
+
+

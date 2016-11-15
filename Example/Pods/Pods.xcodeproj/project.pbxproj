@@ -8,22 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		0DB933CF501759CD5DB12AB586079860 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3E5DB554589C543F1B5859BB28A8CC /* SVProgressAnimatedView.m */; };
-		1B7CC55636E3805E39EAD1FF135BA53E /* CKStoreProductLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78981D13BC2B6DB3CB46C66E20835002 /* CKStoreProductLink.swift */; };
-		2E4C41E33FD7FAFDDDF8EA63A2E2C91E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F61D5F7565EC83053F16A3A38BDCE3A /* StoreKit.framework */; };
 		337E6F8F3C14CBA033F3973A9F77314A /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF517DE80F33E8C6D4730D8C76266A8 /* SVIndefiniteAnimatedView.m */; };
-		3A9991218B0EBB888351E5215CB05AD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25621B42DF3A0A55DD8998B036796AB1 /* UIKit.framework */; };
+		542BB40F7E13AAD07D1EBA334B7F11F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F87962E2DB75D9699257452B48473B /* Foundation.framework */; };
+		6111071766FCDCA3EDAE3E1FCD9D1E88 /* CKStoreProductLink-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC2CC104303B0E137CBD0EFF0512362 /* CKStoreProductLink-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		667693260AC208D5A3D02D01E74F69D4 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E6456237FB03F6CCC42CC65518735B70 /* SVRadialGradientLayer.m */; };
-		70EDF62B9BE5BB2D2D7237709387F36D /* CKStoreProductLink-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C5939A953E296CC4B38A25806D2AE2F /* CKStoreProductLink-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		794CDBDC60E22876C3707F217C3DA0A8 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D39DF6CCC0BF2A43A2826E78E87405 /* SVProgressHUD-dummy.m */; };
+		7A7C5F900B3DED039A0A004585197016 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25621B42DF3A0A55DD8998B036796AB1 /* UIKit.framework */; };
 		7D1B42F5548B044C0F1DA6A5DD4AD816 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = C448586FB64ED635E190F6904D743930 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83C50094C2C6D495086262501E1A95A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F87962E2DB75D9699257452B48473B /* Foundation.framework */; };
+		8E19B992C21E375FB53698C31BDBC195 /* CKStoreProductLink-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11236E61A770203DC2C8F5F743C2A927 /* CKStoreProductLink-dummy.m */; };
 		9344D60335A79820D6CE6242AACA71F8 /* Pods-CKStoreProductLink_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 633F7E0A533F25D888D5CBAC6E87764D /* Pods-CKStoreProductLink_Tests-dummy.m */; };
 		96868B63CEAF3CAE950602FA6DDDEEFF /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CDC9F27823E18CB972FB8AFD6B120F6 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96A97011FA28AC902DFC603D4B57C351 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A1296BE4DDEB09F3CF2072C7073D7B3 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D86CFE3172D51EAA6E5389A5B6EB81E /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 170E247DAABF893060C8B9D458B792BA /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E6EDF58989AF9A2C254E16CDAC95C5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F87962E2DB75D9699257452B48473B /* Foundation.framework */; };
+		B87F187A9736DD7CE9A7A984409D57CF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F61D5F7565EC83053F16A3A38BDCE3A /* StoreKit.framework */; };
 		C1E903B43BD360D0D7CBCB1F77F63FC2 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B9DE3366B1C5305DC7E5784E16F95 /* SVProgressHUD.bundle */; };
 		C6A0D40D7CCF207759F6F46856CCB706 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EB951A2AFCBDCFE1B3C8CAA45738F432 /* SVProgressHUD.m */; };
+		CBF21B3F63E5FBDDE1D9515690089746 /* CKStoreProductLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211A2EBD2736FA24B1E87CC0F7EAF4BA /* CKStoreProductLink.swift */; };
 		CC72554719E6B7497502D63979D22DA6 /* Pods-CKStoreProductLink_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A1FF77B95FBE050FDF58EA93614F3D0 /* Pods-CKStoreProductLink_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5C6718BF760503364A00F878006F149 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F87962E2DB75D9699257452B48473B /* Foundation.framework */; };
 		E0301EFF83385598CB7B18E68D0C3821 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F87962E2DB75D9699257452B48473B /* Foundation.framework */; };
@@ -31,7 +32,7 @@
 		ED6860DA0D01A2EB4C238A9A0F15DA23 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 890B1DD2045D248B38845231F6A24977 /* QuartzCore.framework */; };
 		F465C843EFA0CAB406AE887DD9D5BB24 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E71CFC73DB55784D0519F97BA41F995 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9AC7B85942D77F2A4B69B792569D097 /* Pods-CKStoreProductLink_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E41AA44927C2AD40085D99DAFF4229D /* Pods-CKStoreProductLink_Example-dummy.m */; };
-		FE5F2575BC32ABCBE23FC8D6FE3ED2CA /* CKStoreProductLink-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D82E1FCC1A15C0909F5D644DD44F0A1F /* CKStoreProductLink-dummy.m */; };
+		FF488EAD2860141DF94F00488977A5CE /* CKStoreProductLink+Inner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DADD95823ABA218D27BEDEA7EACA490 /* CKStoreProductLink+Inner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 32F62A4763CCF80A9AC1399E191B7A2A;
+			remoteGlobalIDString = 327FEBFE99DF0993E905EBF4C8B5A114;
 			remoteInfo = CKStoreProductLink;
 		};
 		B5D9ABF16F5F6D9E70FEC158DC98E4C7 /* PBXContainerItemProxy */ = {
@@ -53,39 +54,39 @@
 
 /* Begin PBXFileReference section */
 		02F87962E2DB75D9699257452B48473B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		06790C7AA43C0F1B7E37455EB4F7C8E3 /* CKStoreProductLink.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CKStoreProductLink.xcconfig; sourceTree = "<group>"; };
 		0B1047EB1BB962DDAA7C8367F86F1DA8 /* Pods-CKStoreProductLink_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CKStoreProductLink_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0C5939A953E296CC4B38A25806D2AE2F /* CKStoreProductLink-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CKStoreProductLink-umbrella.h"; sourceTree = "<group>"; };
+		11236E61A770203DC2C8F5F743C2A927 /* CKStoreProductLink-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CKStoreProductLink-dummy.m"; sourceTree = "<group>"; };
 		170E247DAABF893060C8B9D458B792BA /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		1A2B9DE3366B1C5305DC7E5784E16F95 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
 		1C2833516A8090990545AE9B6516940B /* Pods-CKStoreProductLink_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKStoreProductLink_Example-resources.sh"; sourceTree = "<group>"; };
+		211A2EBD2736FA24B1E87CC0F7EAF4BA /* CKStoreProductLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CKStoreProductLink.swift; sourceTree = "<group>"; };
 		231A9C31449E1545AEB23FA8B9E0217B /* Pods-CKStoreProductLink_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CKStoreProductLink_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		25621B42DF3A0A55DD8998B036796AB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		2679B3EC886CA1A15A8BDBCB65D66449 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
-		2C2AADC475DDEEAE8CCD2B83C0A6B7FD /* CKStoreProductLink.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CKStoreProductLink.xcconfig; sourceTree = "<group>"; };
 		2CDC9F27823E18CB972FB8AFD6B120F6 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
 		359BABE72A205412EC57391A2770CD52 /* Pods-CKStoreProductLink_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CKStoreProductLink_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3BE44BBE6F96178A8298926BC90F93B4 /* Pods-CKStoreProductLink_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKStoreProductLink_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		45345F371186FC1299293B470351C236 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
 		4A1FF77B95FBE050FDF58EA93614F3D0 /* Pods-CKStoreProductLink_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CKStoreProductLink_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4D74AB0FE2C2DBD19C52E7E35B67696A /* Pods-CKStoreProductLink_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKStoreProductLink_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4F4E5E744B6B477B3811290D9929F24E /* CKStoreProductLink-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CKStoreProductLink-prefix.pch"; sourceTree = "<group>"; };
 		4F61D5F7565EC83053F16A3A38BDCE3A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
 		5AB91C9CE0B19140BF37D330E5528854 /* Pods-CKStoreProductLink_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKStoreProductLink_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5DADD95823ABA218D27BEDEA7EACA490 /* CKStoreProductLink+Inner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CKStoreProductLink+Inner.swift"; sourceTree = "<group>"; };
 		633F7E0A533F25D888D5CBAC6E87764D /* Pods-CKStoreProductLink_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CKStoreProductLink_Tests-dummy.m"; sourceTree = "<group>"; };
 		659F1C3D8C3B91FF07EF2CEF906F6AF4 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B58294F461299DF6AEA72CF4049B7E /* Pods_CKStoreProductLink_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CKStoreProductLink_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67F90DB5D8FD23B93049AD6BE40614E2 /* Pods-CKStoreProductLink_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CKStoreProductLink_Example-frameworks.sh"; sourceTree = "<group>"; };
 		687132D3F6FCB0EC2A9386A2165909AA /* Pods-CKStoreProductLink_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CKStoreProductLink_Tests.modulemap"; sourceTree = "<group>"; };
 		6BF941B247647F1AD891AF38367AF77A /* Pods-CKStoreProductLink_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CKStoreProductLink_Example.modulemap"; sourceTree = "<group>"; };
-		6DC74B5989FC39AF0ADFF593033FE221 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7037FAF5595392975B26CE6270F37C8C /* CKStoreProductLink.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CKStoreProductLink.modulemap; sourceTree = "<group>"; };
 		76F17D56EACB14E548D1AA6080BDFB0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78981D13BC2B6DB3CB46C66E20835002 /* CKStoreProductLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CKStoreProductLink.swift; sourceTree = "<group>"; };
 		890B1DD2045D248B38845231F6A24977 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		9144B8DEB8D3A313145880630ECF4CD0 /* Pods-CKStoreProductLink_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKStoreProductLink_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		918BF8208E3A7AAF14D941178EBB81E2 /* CKStoreProductLink.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CKStoreProductLink.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A1296BE4DDEB09F3CF2072C7073D7B3 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
 		9A26BACF646CB3AE040ED8F65AF84695 /* Pods-CKStoreProductLink_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CKStoreProductLink_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9C5F34CB05CFEA11CAA101EEEBFDF438 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E41AA44927C2AD40085D99DAFF4229D /* Pods-CKStoreProductLink_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CKStoreProductLink_Example-dummy.m"; sourceTree = "<group>"; };
 		9E71CFC73DB55784D0519F97BA41F995 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
 		9F3E5DB554589C543F1B5859BB28A8CC /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
@@ -96,23 +97,24 @@
 		B53E9496E7EB056CE234E955001035B3 /* Pods-CKStoreProductLink_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CKStoreProductLink_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C448586FB64ED635E190F6904D743930 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		D6C04C9F65BB3580D5536C9CA7EE9474 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D82E1FCC1A15C0909F5D644DD44F0A1F /* CKStoreProductLink-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CKStoreProductLink-dummy.m"; sourceTree = "<group>"; };
 		D9E0A8598E01887BB17C48B654F0E09B /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		DAC2CC104303B0E137CBD0EFF0512362 /* CKStoreProductLink-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CKStoreProductLink-umbrella.h"; sourceTree = "<group>"; };
 		E1EDF250B6E159CA4D2D07A15D531B18 /* Pods-CKStoreProductLink_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CKStoreProductLink_Example-umbrella.h"; sourceTree = "<group>"; };
 		E5C18DA468A776D2D40EFD0802028CE5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6456237FB03F6CCC42CC65518735B70 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		EACD2A54FFD938592A87C0583813E8E9 /* CKStoreProductLink-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CKStoreProductLink-prefix.pch"; sourceTree = "<group>"; };
 		EB951A2AFCBDCFE1B3C8CAA45738F432 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 		F7B94766D22FD9454FFF3D101313DCB0 /* CKStoreProductLink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CKStoreProductLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		341BF3E70E16C44C303C0348795BB683 /* Frameworks */ = {
+		25FAC15A5860D04074B5972C7EECE3FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E6EDF58989AF9A2C254E16CDAC95C5E /* Foundation.framework in Frameworks */,
-				2E4C41E33FD7FAFDDDF8EA63A2E2C91E /* StoreKit.framework in Frameworks */,
-				3A9991218B0EBB888351E5215CB05AD9 /* UIKit.framework in Frameworks */,
+				542BB40F7E13AAD07D1EBA334B7F11F6 /* Foundation.framework in Frameworks */,
+				B87F187A9736DD7CE9A7A984409D57CF /* StoreKit.framework in Frameworks */,
+				7A7C5F900B3DED039A0A004585197016 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,26 +172,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		21451EE11EAEDDA5254B7A0C427FECE5 /* CKStoreProductLink */ = {
+		23AB24D155E43042584AAD99847E0A71 /* Both */ = {
 			isa = PBXGroup;
 			children = (
-				E69EC0072D93965D864B98B691A93D02 /* Classes */,
+				74441D5268F4AE2332752550BF93C09A /* CKStoreProductLink */,
 			);
-			path = CKStoreProductLink;
-			sourceTree = "<group>";
-		};
-		51F9642DA01F3FB143B44C12DA334698 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				918BF8208E3A7AAF14D941178EBB81E2 /* CKStoreProductLink.modulemap */,
-				2C2AADC475DDEEAE8CCD2B83C0A6B7FD /* CKStoreProductLink.xcconfig */,
-				D82E1FCC1A15C0909F5D644DD44F0A1F /* CKStoreProductLink-dummy.m */,
-				4F4E5E744B6B477B3811290D9929F24E /* CKStoreProductLink-prefix.pch */,
-				0C5939A953E296CC4B38A25806D2AE2F /* CKStoreProductLink-umbrella.h */,
-				6DC74B5989FC39AF0ADFF593033FE221 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CKStoreProductLink";
+			name = Both;
 			sourceTree = "<group>";
 		};
 		5831ECC27984A7B2FA00FEE7EF078CAB /* SVProgressHUD */ = {
@@ -209,14 +197,18 @@
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
-		64E6675709846AFD73057C62D05F8646 /* CKStoreProductLink */ = {
+		65747148F791CA9C0D440D4651B1C41C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				21451EE11EAEDDA5254B7A0C427FECE5 /* CKStoreProductLink */,
-				51F9642DA01F3FB143B44C12DA334698 /* Support Files */,
+				7037FAF5595392975B26CE6270F37C8C /* CKStoreProductLink.modulemap */,
+				06790C7AA43C0F1B7E37455EB4F7C8E3 /* CKStoreProductLink.xcconfig */,
+				11236E61A770203DC2C8F5F743C2A927 /* CKStoreProductLink-dummy.m */,
+				EACD2A54FFD938592A87C0583813E8E9 /* CKStoreProductLink-prefix.pch */,
+				DAC2CC104303B0E137CBD0EFF0512362 /* CKStoreProductLink-umbrella.h */,
+				9C5F34CB05CFEA11CAA101EEEBFDF438 /* Info.plist */,
 			);
-			name = CKStoreProductLink;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CKStoreProductLink";
 			sourceTree = "<group>";
 		};
 		70770A3C162276C1F945DA98475BCDDC /* Pods-CKStoreProductLink_Tests */ = {
@@ -237,6 +229,14 @@
 			path = "Target Support Files/Pods-CKStoreProductLink_Tests";
 			sourceTree = "<group>";
 		};
+		74441D5268F4AE2332752550BF93C09A /* CKStoreProductLink */ = {
+			isa = PBXGroup;
+			children = (
+				D0F9A6503B6CEE0BB2A0BCB9E39A95A5 /* Classes */,
+			);
+			path = CKStoreProductLink;
+			sourceTree = "<group>";
+		};
 		74588D48F629C3D7E6B7E12AB83072D6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,6 +255,16 @@
 				9EEDC88936184CCA7F7E0B46EE9E81DF /* Products */,
 				D99E0370651E8774D381067BABC73D2E /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		9D0585E2BA80D6D75B32704E9B2B30AD /* CKStoreProductLink */ = {
+			isa = PBXGroup;
+			children = (
+				23AB24D155E43042584AAD99847E0A71 /* Both */,
+				65747148F791CA9C0D440D4651B1C41C /* Support Files */,
+			);
+			name = CKStoreProductLink;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		9E09F6F6417032AB83C07907A8D7E815 /* Resources */ = {
@@ -279,7 +289,7 @@
 		A1702AEDFD3DB0B82A7D093E221F7502 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				64E6675709846AFD73057C62D05F8646 /* CKStoreProductLink */,
+				9D0585E2BA80D6D75B32704E9B2B30AD /* CKStoreProductLink */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -298,6 +308,15 @@
 			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
+		D0F9A6503B6CEE0BB2A0BCB9E39A95A5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				211A2EBD2736FA24B1E87CC0F7EAF4BA /* CKStoreProductLink.swift */,
+				5DADD95823ABA218D27BEDEA7EACA490 /* CKStoreProductLink+Inner.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		D99E0370651E8774D381067BABC73D2E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,14 +324,6 @@
 				70770A3C162276C1F945DA98475BCDDC /* Pods-CKStoreProductLink_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		E69EC0072D93965D864B98B691A93D02 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				78981D13BC2B6DB3CB46C66E20835002 /* CKStoreProductLink.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		F5BAFA9CDFC69E83AF63B3B37A23FE11 /* iOS */ = {
@@ -357,24 +368,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F23F6234D5BF3F9487A493AFE672F4C3 /* Headers */ = {
+		C424888FABD10F4E83D3E54F27877380 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70EDF62B9BE5BB2D2D7237709387F36D /* CKStoreProductLink-umbrella.h in Headers */,
+				6111071766FCDCA3EDAE3E1FCD9D1E88 /* CKStoreProductLink-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		32F62A4763CCF80A9AC1399E191B7A2A /* CKStoreProductLink */ = {
+		327FEBFE99DF0993E905EBF4C8B5A114 /* CKStoreProductLink */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB6C34E9ED4EFE45284176FADA91EFD0 /* Build configuration list for PBXNativeTarget "CKStoreProductLink" */;
+			buildConfigurationList = 90DABDBB36E45CA503F4773D4B8D1043 /* Build configuration list for PBXNativeTarget "CKStoreProductLink" */;
 			buildPhases = (
-				AB70EA9FC6561AF5AFA704737024E1E8 /* Sources */,
-				341BF3E70E16C44C303C0348795BB683 /* Frameworks */,
-				F23F6234D5BF3F9487A493AFE672F4C3 /* Headers */,
+				99EB9254C8456BC19A045A5AB56EA1A5 /* Sources */,
+				25FAC15A5860D04074B5972C7EECE3FC /* Frameworks */,
+				C424888FABD10F4E83D3E54F27877380 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -460,7 +471,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				32F62A4763CCF80A9AC1399E191B7A2A /* CKStoreProductLink */,
+				327FEBFE99DF0993E905EBF4C8B5A114 /* CKStoreProductLink */,
 				4470B0034C61E850BCEDE412CF2A8962 /* Pods-CKStoreProductLink_Example */,
 				E4E9C06B4F5001723052D9A40E8F9CD9 /* Pods-CKStoreProductLink_Tests */,
 				496270FBDB0572EE1314CB2172A696B8 /* SVProgressHUD */,
@@ -492,12 +503,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB70EA9FC6561AF5AFA704737024E1E8 /* Sources */ = {
+		99EB9254C8456BC19A045A5AB56EA1A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE5F2575BC32ABCBE23FC8D6FE3ED2CA /* CKStoreProductLink-dummy.m in Sources */,
-				1B7CC55636E3805E39EAD1FF135BA53E /* CKStoreProductLink.swift in Sources */,
+				FF488EAD2860141DF94F00488977A5CE /* CKStoreProductLink+Inner.swift in Sources */,
+				8E19B992C21E375FB53698C31BDBC195 /* CKStoreProductLink-dummy.m in Sources */,
+				CBF21B3F63E5FBDDE1D9515690089746 /* CKStoreProductLink.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,7 +541,7 @@
 		2730A42B193624A2D7A2E0DFC6629688 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CKStoreProductLink;
-			target = 32F62A4763CCF80A9AC1399E191B7A2A /* CKStoreProductLink */;
+			target = 327FEBFE99DF0993E905EBF4C8B5A114 /* CKStoreProductLink */;
 			targetProxy = 92C1C4AE7FC4D4B7059BBB8DBD64706B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -570,9 +582,9 @@
 			};
 			name = Release;
 		};
-		0C777FF831264460C22CDE4B7B896AF4 /* Debug */ = {
+		6C8C36FB51A33DAF6F78615F70BA23B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C2AADC475DDEEAE8CCD2B83C0A6B7FD /* CKStoreProductLink.xcconfig */;
+			baseConfigurationReference = 06790C7AA43C0F1B7E37455EB4F7C8E3 /* CKStoreProductLink.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -825,9 +837,9 @@
 			};
 			name = Release;
 		};
-		D62BCC37B9BE6B75E8E56F3B280DCCA4 /* Release */ = {
+		EE5A5891CF81E2479592E192A504D357 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C2AADC475DDEEAE8CCD2B83C0A6B7FD /* CKStoreProductLink.xcconfig */;
+			baseConfigurationReference = 06790C7AA43C0F1B7E37455EB4F7C8E3 /* CKStoreProductLink.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -919,20 +931,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		90DABDBB36E45CA503F4773D4B8D1043 /* Build configuration list for PBXNativeTarget "CKStoreProductLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C8C36FB51A33DAF6F78615F70BA23B9 /* Debug */,
+				EE5A5891CF81E2479592E192A504D357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B7D3EF02BDD2104790FE7748FE24BC4B /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F0B4F5CF10214408E199174AE3C2947F /* Debug */,
 				BD11EE38BD773D64CEE90B5635283C58 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CB6C34E9ED4EFE45284176FADA91EFD0 /* Build configuration list for PBXNativeTarget "CKStoreProductLink" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0C777FF831264460C22CDE4B7B896AF4 /* Debug */,
-				D62BCC37B9BE6B75E8E56F3B280DCCA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
