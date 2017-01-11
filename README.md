@@ -26,6 +26,31 @@ If you don't want to include StoreKit framework. Only link to App Store.Simply a
 pod "CKStoreProductLink/Outer", :git => "https://github.com/kaich/CKStoreProductLink.git"
 ```
 
+##Use
+
+* 应用内跳转
+
+		ckst_open(itemID: text) { (isOK,_) in
+                if isOK == false {
+                    //do something if it's failed
+                }
+                else {
+                    //do something if it's successful
+                }
+            }
+           
+* 应用外跳转
+
+		ckst_open(itemID: tfAppID.text!, type: .outer) { (isOK,_) in
+            if isOK == false {
+                //do something if it's failed
+            }
+            else {
+                //do something if it's successful
+            }
+        }
+          
+
 ## Author
 
 kaich, chengkai1853@163.com
