@@ -54,29 +54,34 @@ class CKStoreProductLink : NSObject {
         }
     }
     
+    //由于这个接口不是很准确，暂时注释（989673964 王者荣耀，Appstore里面有，但是这个接口查询不到)
     func lookupItem(itemID :String, completeBlock :CKSPLCompleteHandler?) {
-        let urlString = "https://itunes.apple.com/lookup?id=" + itemID
-        if let url = URL(string: urlString) {
-            let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
-                var isExist = false
-                if let data = data {
-                    do {
-                        if let jsonObject = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as? [String : Any] {
-                            if let results = jsonObject["results"] as? [Any] {
-                                if results.count > 0 {
-                                   isExist = true
-                                }
-                            }
-                        }
-                    } catch {
-                       NSLog("parse json error : \(error)")
-                    }
-                }
-                if let completeBlock = completeBlock {
-                    completeBlock(isExist,false)
-                }
-            }
-            task.resume()
+//        let urlString = "https://itunes.apple.com/lookup?id=" + itemID
+//        if let url = URL(string: urlString) {
+//            let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
+//                var isExist = false
+//                if let data = data {
+//                    do {
+//                        if let jsonObject = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as? [String : Any] {
+//                            if let results = jsonObject["results"] as? [Any] {
+//                                if results.count > 0 {
+//                                   isExist = true
+//                                }
+//                            }
+//                        }
+//                    } catch {
+//                       NSLog("parse json error : \(error)")
+//                    }
+//                }
+//                if let completeBlock = completeBlock {
+//                    completeBlock(isExist,false)
+//                }
+//            }
+//            task.resume()
+//        }
+
+        if let completeBlock = completeBlock {
+            completeBlock(true,false)
         }
         
     }
