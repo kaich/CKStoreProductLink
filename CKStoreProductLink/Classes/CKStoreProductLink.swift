@@ -23,6 +23,7 @@ class CKStoreProductLink : NSObject {
     var targetViewController :UIViewController! = nil
     var itemID :String = ""
     var completeBlock :CKSPLCompleteHandler?
+    var didCanceledBlock :((Void) -> Void)?
     
     func open(itemID :String, in container :UIViewController, type :CKSPLinkType, completeBlock :CKSPLCompleteHandler?) {
         self.targetViewController = container

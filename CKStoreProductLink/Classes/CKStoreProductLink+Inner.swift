@@ -27,6 +27,9 @@ extension CKStoreProductLink : SKStoreProductViewControllerDelegate {
     //MARK: - SKStoreProductViewControllerDelegate
     func productViewControllerDidFinish(_ viewController: SKStoreProductViewController) {
         targetViewController.dismiss(animated: true, completion: nil)
+        if let didCanceledBlock = didCanceledBlock {
+            didCanceledBlock()
+        }
     }
     
 }
