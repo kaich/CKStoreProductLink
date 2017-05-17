@@ -18,7 +18,7 @@ extension UIViewController {
 
 typealias CKSPLCompleteHandler = ((Bool,Bool) -> Void)
 class CKStoreProductLink : NSObject {
-    static var shared = CKStoreProductLink()
+    public static var shared = CKStoreProductLink()
     
     var targetViewController :UIViewController! = nil
     var itemID :String = ""
