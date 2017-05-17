@@ -13,12 +13,19 @@ extension UIViewController {
     public func ckst_open(itemID :String, type :CKSPLinkType = .inner, completeBlock :((Bool,Bool) -> Void)? = nil) {
         CKStoreProductLink.shared.open(itemID: itemID, in: self, type: type, completeBlock: completeBlock)
     }
-
+    
+    public func ckst_didCancle(_ cancelBlock :((Void) -> Void)?) {
+        CKStoreProductLink.shared.didCanceledBlock = {
+            if let cancelBlock = cancelBlock {
+                cancelBlock()
+            }
+        }
+    }
 }
 
 typealias CKSPLCompleteHandler = ((Bool,Bool) -> Void)
 class CKStoreProductLink : NSObject {
-    public static var shared = CKStoreProductLink()
+    static var shared = CKStoreProductLink()
     
     var targetViewController :UIViewController! = nil
     var itemID :String = ""
